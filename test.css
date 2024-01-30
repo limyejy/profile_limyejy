@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+header{    
+    font-family: 'TAEBAEKfont';
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border;
+}
+
+a,
+a:active,
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    position: relative;
+    z-index: 2;
+    margin-left: 400px;
+
+}
+
+.logo{
+    position: relative;
+    width: 1820px;
+    height: 90px;
+    background: rgb(165, 201, 165);
+    text-align: center;
+    line-height: 90px;
+    font-size: 25pt;
+
+
+}
+
+.test{
+    z-index: 2;
+    margin-left: 100px;
+}
+
+.test>ul{
+    display: flex;
+    font-size: 20pt;
+    line-height: 80px;
+}
+
+.test li{margin: 0px;
+}
+.test a{
+    display: block;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: white;
+    color: black;
+    margin-left: 100px;
+}
+
+.submenu{
+    height: 400px; 
+    display: none; 
+    position: absolute; 
+    border-bottom: 1px solid black;}
+.test>ul:hover .submenu{display:block; 
+    background-color: white; 
+    border-bottom: 2px solid black; 
+    font-size: 15pt;}
+.test>ul>li:hover>a {display: block;}
+.submenu a:hover {
+    background-color: rgba(50, 217, 86, 0.245)}
+
+.mainimage{
+    width: 1920px;
+    height: 780px;
+    z-index: 1;
+    display: block;
+    margin-left: 400px;
+}

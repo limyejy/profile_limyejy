@@ -1,0 +1,206 @@
+@media screen and (min-width:990px){
+
+    .home_all_m{display:none;}
+
+    .p_project_all_m{
+        display: none}
+    
+    .web_description_m{
+            display: none;
+    }
+
+    .myart_all_m{
+        display: none;
+
+    }
+    }
+
+
+@media screen and (max-width:990px){
+
+    body{margin: 0 auto;
+        padding: 0 auto;
+        width: 100%;
+        overflow-x: hidden;
+        background: var(--color-blue);
+    }
+ .header{display:block;
+    width: 100%;
+}
+
+ .home_all{
+    display: none;
+        overflow: hidden;
+    
+ }
+
+ #bumb_media_proto{
+    display: block;
+    width: 70%;
+    justify-self: center;
+    margin-left: 15%;
+    overflow: hidden;
+    
+ }
+
+ .img_box{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: 100px;
+    overflow: hidden;
+ }
+
+ #profile{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    overflow: hidden;
+ }
+
+ .profile_main_all{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+ }
+
+ #dot{
+    margin-left: 100px;
+    width: 400px;
+    margin-top: -100px;
+    overflow: hidden;
+    
+ }
+
+ #title{
+    font-size: 5rem;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    
+ }
+
+ #bulb{
+    font-size: 5rem;
+    display: flex;
+    justify-self: center;
+    overflow: hidden;
+    
+ }
+
+ #profile_title2{
+    font-size: 5rem;
+    display: flex;
+    justify-self: center;
+    margin-left: -70px;
+    overflow: hidden;
+    
+ }
+
+ #profile_description_text{
+    font-size: 1.1rem;
+    line-height: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    
+ }
+
+ .skill_icon{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 750px;
+    margin-left: -200px;
+    margin-top: 50px;
+    overflow: hidden;
+    
+ }
+
+ .line_profile{
+    width: 750px;
+    overflow: hidden;
+    
+ }
+
+ .more_text{
+    font-size: 2rem;
+    margin-left: 650px;
+    
+ }
+
+ .promotion_Rec{
+    width: 800px;
+    overflow: hidden;
+    
+ }
+
+ #profile_title{
+    font-size: 5rem;
+    overflow: hidden;
+    line-height: 8rem;
+    
+ }
+
+ #profile_title{
+    font-size: 5rem;
+    overflow: hidden;
+    line-height: 8rem;
+    
+ }
+
+ #title{
+    width: 800px;
+    margin-left: 100px;
+    overflow: hidden;
+    
+ }
+
+ .banner1{
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    
+ }
+
+ .banner2{
+    width: 600px;
+    height: 200px;
+    margin-left: 38px;
+    overflow: hidden;
+ }
+
+ .gogosingimg{width: 100%;
+    overflow: hidden;}
+
+ #web_description{font-size: 2rem; 
+    line-height: 50px;
+    overflow: hidden;}
+ .button{width: 200px; height: 50px;
+    overflow: hidden;}
+
+ #footer{
+    
+    width: 100%;
+    overflow: hidden;
+ }
+
+ #footer_description{
+    font-size: 2rem;
+    margin-left: -4rem;
+    overflow: hidden;
+ }
+
+ #popup_img_all{
+    overflow: hidden;
+    width: 200px;
+ }
+ 
+
+
+
+
+
+}
+
