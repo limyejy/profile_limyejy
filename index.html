@@ -17,7 +17,7 @@
 <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
  
-<title>Document</title>
+<title>Profile</title>
 
 
 <!DOCTYPE html>
@@ -336,22 +336,30 @@
                 </p>
 
                 <p id="popup_description">
-                    sns pop up and hompage
+                    sns banner & hompage banner
                 </p>
             </div>
 
             <div class="banner_img_all">
 
             <div class="post-slider">
-                <div class="post-wrapper">
-                  <div class="post"><img src="./banner_4.png" width="900"></div>
-                  <div class="post"><img src="./banner_3.png"  width="900"></div>
-                  <div class="post"><img src="./banner_5.png" width="900"></div>
-                  <div class="post"><img src="./banner_6.png" width="900"></div>
-                  <div class="post"><img src="./banner_2.png" width="900"></div>
-                  <div class="post"><img src="./banner_1.png" width="900"></div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./banner_4.png" width="900">
+                    <img src="./banner_3.png" width="900">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./banner_2.png" width="900">
+                    <img src="./banner_6.png" width="900">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./banner_2.png" width="900">
+                    <img src="./banner_1.png" width="900">
+                </div>
             </div>
-
+        </div>
+    </section>
             
         </div>
 
@@ -657,34 +665,12 @@
             });
         </script>
 
-        <script>
-$('.post-wrapper').slick({
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  prevArrow : "none",
-      nextArrow : "none",
-});
-        </script>
-
-<script>
-    $('.post-wrapper_2').slick({
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      prevArrow : "none",
-          nextArrow : "none",
-    });
-</script>
-
 <script>
 $(document).ready(function() {
     const $counters = $(".scroll_on");
     
     
-    const exposurePercentage = 100; 
+    const exposurePercentage = 50; 
     const loop = true; 
 
 
