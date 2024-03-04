@@ -4,10 +4,144 @@
     ;
     background-color: var(--color-yellow);
     width: 100%;
-    height: 500px;
+    height: 300px;
 }
 
 #footer_description{
     font-size: 4rem;
     color: var(--color-blue);
 }
+
+#copybtn1{
+    border: none;
+    background-color: var(--color-blue);
+    color:var(--color-yellow);
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 30px;
+    font-weight: bold;
+
+}
+
+.side_bar_plus{
+    position: absolute;
+    width: 9rem;
+    height: 155px;
+    line-height: 30px;
+    border-radius: 5px;
+    z-index: 999;
+    top: 0;
+    margin-top:-7rem;
+    right: -0.4rem;
+    background-color: rgb(255, 255, 255,0.5);
+    border: 1px solid burlywood;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    opacity: 0;
+}
+
+#close{
+    border: none;
+    background-color: rgb(255, 255, 255,0.0);
+    margin-left: 6.5rem;
+    margin-top: -8rem;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    opacity: 0.7;
+}
+
+#plus_text_each{
+    font-family: 'NanumSquareNeo-Variable';
+    vertical-align: center;
+    width: 8rem;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+#plus_emj{
+    font-size: 15pt;
+    line-height: 30px;
+}
+
+.side_bar{
+    position: absolute;
+    width: 50px;
+    height: 200px;
+    border-radius: 50px;
+    z-index: 999;
+    top: 50%;
+    margin-top:-50px;
+    right: 50px;
+    
+}
+
+.side_bar ul{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    display: inline;
+    
+}
+
+.side_bar ul li{
+    width:100%;
+    text-align:center;
+    display:inline-block;
+    display:inline;
+}
+
+.side_bar ul li {
+    position:relative;
+    float:left;
+    width:100%;
+    height:55px;
+    line-height:55px;
+    text-align:center;
+    font-size:9.5pt;
+}
+
+
+#m_04{
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    line-height: 60px;
+    background-color: white;
+    border: 2px solid #bfb29f;
+    border-radius: 10%;
+}
+
+#m_01{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color:  #bfb29f;
+    font-size: 20pt;
+    border-radius: 50%;
+    border: none;
+}
+
+#top{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-blue);
+    border-radius: 99px;
+    position: absolute;
+    margin-left: 130rem;
+    margin-top: -5rem;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+#top_text{
+    font-size: 5rem;
+    margin-top: 1.0rem;
+}
+

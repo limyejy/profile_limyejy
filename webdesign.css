@@ -9,8 +9,18 @@
 
 }
 
+body{
+    overflow-x: hidden;
+}
 
-.wegdesign_all{
+
+
+.webdesign_all{
+    overflow-x: hidden;
+}
+
+
+.webdesign_all{
     background-color: var(--color-blue);
 
 }
@@ -34,4 +44,29 @@
     line-height: 6rem;
     color: var(--color-blue);
 }
+
+.webpage_text_all{
+    position: absolute;
+    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: -63rem;
+    margin-left: 90rem;
+    flex-flow: column;
+    text-align: left;
+}
+
+#website_title{
+    font-size: 6rem;
+}
+
+#website_description_text{
+    font-size: 3.5rem;
+}
+
+#website_description_text_2{
+    font-size: 3rem;
+}
+
 

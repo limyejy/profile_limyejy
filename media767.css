@@ -1,0 +1,36 @@
+@media all and (min-width:767px) {
+
+
+}
+
+
+@media all and (max-width:767px) {
+    .home_all{
+        display: none;
+    }
+
+
+    .popup_all{
+        font-size: 4rem;
+    }
+    .popup_title{
+        width: 100%;
+        text-align: center;
+        font-size: 4rem;
+
+    }
+
+    #title{
+        font-size:4rem;
+    }
+
+    #popup_description{
+        width: 100%;
+        text-align: center;
+    }
+
+    #home{
+        display: flex;
+        flex-flow: column;
+    }
+}

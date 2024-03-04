@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     
- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
- <meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="viewport" content="user-scalable=0;"/>
-    <title>Document</title>
 
-    <!DOCTYPE html>
+ <link
+ rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ 
+<title>Document</title>
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,9 +37,10 @@
     <link href="./profile2.css" rel="stylesheet">
     <link href="promotion_index.css" rel="stylesheet">
     <link href="webdesign.css" rel="stylesheet">
+    <link href="gogosing.css" rel="stylesheet">
     <link href="./my art2.css" rel="stylesheet">
     <link href="./footer.css" rel="stylesheet">
-    <link href="./media768.css" rel="stylesheet">
+    <link href="./media767.css" rel="stylesheet">
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
     <!--OG 시작-->
     <meta property="og:title" content="Ji의 포트폴리오">
@@ -86,7 +99,7 @@
             <li><a href="#HEADER">HOME</a></li>
             <li><a href="#PROFILE">PROFILE</a></li>
             <li><a href="#promotion_index">PROJECT-DESIGN</a></li>
-            <li><a href="#contact_me">CONTACT</a></li>
+            <li><a href="#footer_description">CONTACT</a></li>
         </ul>
     </header>
 
@@ -98,10 +111,8 @@
             
             <div class="home_background">
                 <ul class="home_all">
-                
-                <label id="animation_delay">
 
-                <li><img class="creative" src="./creative.jpg"></li>
+                <li><img class="creative" src="./creative_img.png"></li>
                 <!--위에서 아래로 효과-->
                 <li><p class="main_text_2">Thinking</p></li>
                 <!--위에서 아래로 효과-->
@@ -110,15 +121,14 @@
                 <li><img class="bumb" src="./bumb.JPG" alt="bumb"></li>
                 <!--흔들리는 효과-->
                 <li><img class="bumb_light" src="./light.jpg" alt="light"></li>
-
-                </label>
+                <li><p id="main_text_01"><br>&nbsp;&nbsp;Lim&nbsp; yejy's&nbsp; <br>&nbsp;&nbsp;Portfolio</p></li>
+                <li><img src="./right_text.png" id="right_text"></li>
 
                 </ul>
-                <div class="img_box">
-                    <img src="./bumb_media.JPG" id="bumb_media_proto">
-                </div>
             </div>
         </section>
+
+
 
         <!--프로필 시작-->
         <section id="PROFILE"> 
@@ -129,7 +139,7 @@
 
             <div class="profile_text_all">
                     <div class="profile_title_all">
-                            <p id="title">UX/UI                         <span class="material-symbols-outlined">
+                            <p id="title_main">UX/UI                         <span class="material-symbols-outlined">
                                 <span class="material-symbols-outlined" id="bulb">
                                     emoji_objects
                                     </span>
@@ -142,8 +152,10 @@
                         <br>주변을 밝히는 전구처럼
                         <br>다양하고 새로운 시선으로
                         <br>소비자들의 일상을 밝히는 <br>디자이너가 되겠습니다
-                        <br>
+
                         </p>
+
+                        <br>
 
                         <div class="skill_icon">
                             <span>
@@ -169,13 +181,108 @@
             <div class="profile_bottom">
                 <div class="line_profile"></div>
             
-                <div class="more_text"><p>more </p></div>
-                <div class="bling">
-                    <img class="bling_img" src="./bling.png" alt="bling">
+                <div class="more_text">
+                    <div class="bling">
+                        <img class="bling_img" src="./bling.png" alt="bling">
+                    </div>
+                    <p>more </p>
+
                 </div>
             </div>
 
         </section>
+
+        <section class="profile_sub_all">
+            <div class="profile_text_all">
+                <div class="circle">
+
+                </div>
+
+                <div class="more_all">
+                    <div class="sec_01">
+                        <div id="circle"></div>
+                        <br>
+                        <div id="text_all">
+                            <div id="title_1">
+                                반짝이는 아이디어
+                            </div>
+                            <div id="description">
+                                반짝이는 아이디어로 소비자가 원하는 디자인을 만들어내는<br>
+                                센스 있는 디자이너가 되겠습니다. 소비자의 욕구와 니즈를<br> 
+                                파악하여 눈에 띄는 디자인을 만들 수 있는<br> 디자인을 추구하겠습니다
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sec_02">
+                <div class="sec_02_1">
+                    <div id="title_02">
+                        임예지<br>
+                        LIM YE JY
+                    </div>
+    
+                    <div id="description">
+                        <br>
+                        2000.01.25<br>
+                        010-8699-3290<br>
+                        vivi01255@naver.com<br>
+                        010-8699-3290
+                    </div>
+                </div>
+    
+                <div class="sec_02_1">
+                    <div id="title_03">
+                        EDUCATION
+                    </div>
+    
+                    <div id="description">
+                        2018.02 울산여자상업고등학교 졸업<br>
+                        2019.03 울산과학대학교 사회복지학과 입학<br>
+                        2021.02 울산과학대학교 사회복지학과 졸업<br>
+                        2021.03~2023.02 태연재활원 근무<br>
+                        2023.09~2024.03 신촌그린컴퓨터 아카데미 수료
+                    </div>
+                </div>
+            </div>
+
+            <div class="sec_03">
+                <div class="sec_03_02">
+                    <div id="title_02">
+                        WORK<br> EXPERIENCE
+                    </div>
+    
+                    <div id="description">
+                        <br>
+                        2023.01 고고싱 홈페이지 제작<br>
+                        2023.02 티파니앤코 홈페이지 제작<br>
+                        2023.02 카카오 홈페이지 제작<br>
+                    </div>
+                </div>
+    
+                <div class="sec_03_02">
+                        <div id="title_03">
+                            SKILLS
+                        </div>
+        
+                        <div id="description">
+                            PHOTOSHOP<br>
+                            ILLUSTRATOR<br>
+                            HTML<br>
+                            CSS<br>
+                            JQUERY<br>
+                            EXCEL<br>
+                            HWP<br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
 
         <!--My art 시작-->  
         
@@ -202,22 +309,26 @@
                         sns pop up and hompage
                     </p>
                 </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./popupimage_8.png">
+                        <img src="./popupimage_7.png">
+                        <img src="./popupimage_6.png">
+                        <img src="./popupimage_5.png">
+                    </div>
 
-                <div class="popup_img_all">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup1" width="300px">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup2" width="300px" >
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup3"width="300px" >
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup4"width="300px">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup5" width="300px">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup5" width="300px">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup5" width="300px">
+                    <div class="swiper-slide">
+                        <img src="./popupimage_1.png">
+                        <img src="./popupimage_2.png">
+                        <img src="./popupimage_4.png">
+                        <img src="./popupimage_3.png">
+                    </div>
 
                 </div>
             </div>
-
         </section>
-
-
+        
         <section id="banner">
             <div class="banner_title">
                 <p id="title">
@@ -230,11 +341,21 @@
             </div>
 
             <div class="banner_img_all">
-                <img class="banner1" src="./banner.jpg" alt="banner1" width="1200px">
-                <img class="banner2" src="./banner.jpg" alt="banner2" width="1200px">
-                
 
+            <div class="post-slider">
+                <div class="post-wrapper">
+                  <div class="post"><img src="./banner_4.png" width="900"></div>
+                  <div class="post"><img src="./banner_3.png"  width="900"></div>
+                  <div class="post"><img src="./banner_5.png" width="900"></div>
+                  <div class="post"><img src="./banner_6.png" width="900"></div>
+                  <div class="post"><img src="./banner_2.png" width="900"></div>
+                  <div class="post"><img src="./banner_1.png" width="900"></div>
             </div>
+
+            
+        </div>
+
+            
 
         </section>
 
@@ -245,7 +366,7 @@
             <div class="promotion_Rec">            
                 <p id="profile_title">WEBSITE
                 </div> 
-                    <p id="promotion_index_description">gogosing&...</p>
+                    <p id="promotion_index_description">UI/UX Design</p>
                 </p>
             </div>   
                     <p id="promotion_index_description"></p>
@@ -253,20 +374,208 @@
                  
         </section>
 
-        <section id="webdesign_img">
-            <div class="wegdesign_all">
-                    <div class="gogosing">
-                        <img class="gogosingimg" src="./gogosing.jpg" width="100%" height="648px">
-                    </div>
-                        <div class="webdesign_all">
-                            <div class="button" value="page"><p id="web_description">PAGE</p></div>
-                            <div class="button"><p id="web_description">PROGRAM</p></div>
-                            <div class="button"><p id="web_description">작업기간</p></div>
 
-                        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="https://limyejy.github.io/portfoliowebsitegogosing/" target="_blank"><img src="gogosingpage_pc.png"></a>
+                <div class="webpage_text_all">
+                    <div id="website_title">GOGOSING</div>
+
+                    <div id="website_description_text">쇼핑몰 웹사이트</div>
+                    <br><br><br><br>
+                    <div id="website_description_text_2">
+                        제작기간 : 9일
+                    </div>
+
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        제작페이지 : 메인/상세페이지
+                    </div>
+
                     
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        사용툴 : HTML, CSS, JQUERY, <br><br> PHOTOSHOP, FIGMA
+                    </div>
+
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        제작방식 : 개인제작
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://limyejy.github.io/kakao/index.html" target="_blank"><img src="kakao_pc.png"></a>
+                <div class="webpage_text_all">
+                    <div id="website_title">KAKAO</div>
+
+                    <div id="website_description_text">기업홈페이지</div>
+                    <br><br><br><br>
+                    <div id="website_description_text_2">
+                        제작기간 : 14일
+                    </div>
+
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        제작페이지 : 메인/서브페이지
+                    </div>
+
+                    
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        사용툴 : HTML, CSS, JQUERY, <br><br> PHOTOSHOP, FIGMA
+                    </div>
+
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        제작방식 : 개인제작
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://65d82629bb811f656d5e8c5e--golden-phoenix-376ddb.netlify.app/" target="_blank"><img src="tiffanypage_pc.png"></a>
+                <div class="webpage_text_all">
+                    <div id="website_title">TIffny&Co</div>
+
+                    <div id="website_description_text">쥬얼리 쇼핑몰 웹사이트</div>
+                    <br><br><br><br>
+                    <div id="website_description_text_2">
+                        제작기간 : 9일
+                    </div>
+
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        제작페이지 : 메인/상세페이지
+                    </div>
+
+                    
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        사용툴 : HTML, CSS, JQUERY, <br><br> PHOTOSHOP, FIGMA
+                    </div>
+
+                    <br><br><br>
+
+                    <div id="website_description_text_2">
+                        제작방식 : 개인제작
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <section class="webpage_start">
+            <div class="scroll_wrap">
+                <div class="scroll_on type_bottom">
+                    <div class="webpage_text_box">
+                        <div id="webpage_up_text">
+                            FASHION BRNAD SHOP
+                        </div>
+                        <div id="webpage_title">
+                            GOGOSING
+                        </div>
+                        <div id="webpage_description">
+                            <br>
+                            20대 인기 쇼핑몰인 고고싱을 참고하여 깔끔하고 보기 편안한  UI/UX 디자인을 구성하였습니다<br>
+                            GIF와 다양한 배너 등을 활용하여 상품노출을 늘리고 옷 이미지에 간단한 디자인을 추가하여 <br>
+                            쇼핑몰의 상품을 더욱 돋보이게 하여 소비자의 구매를 촉진할 수 있도록 디자인 하였습니다
+                        </div>
+        
+                        <div id="go_button">
+                            <br><br><br>
+                            <a href="https://limyejy.github.io/portfoliowebsitegogosing/" target="_blank">
+                                <div id="webpage_go_button">
+                                    <span class="material-symbols-outlined">
+                                    arrow_forward_ios
+                                    </span>바로가기
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
+
+        
+
+        <section class="webpage_start_2">
+            <div class="scroll_wrap">
+                <div class="scroll_on type_bottom">
+                    <div class="webpage_text_box">
+                        <div id="webpage_up_text">
+                            MESSENGER APP SITE
+                        </div>
+                        <div id="webpage_title">
+                            GOGOSING
+                        </div>
+                        <div id="webpage_description">
+                            <br>
+                            한국 대표 메신저인 카카오톡 UI/UX 디자인을 참고하여 사이트를 구성하였습니다<br>
+                            카카오스러운 배너, 팝업, 아이콘 등을 깔끔한 레이아웃을 통해 정리하여<br>
+                            기업의 이미지를 더욱 돋보이게 하고, 기업이 제공하는 컨텐츠들의 가독성을 높여<br>
+                            사람들에게 카카오를 더 알릴 수 있도록 디자인하였습니다
+                        </div>
+        
+                        <div id="go_button">
+                            <br><br><br>
+                            <a href="https://limyejy.github.io/kakao/index.html" target="_blank">
+                                <div id="webpage_go_button">
+                                    <span class="material-symbols-outlined">
+                                    arrow_forward_ios
+                                    </span>바로가기
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="webpage_start_3">
+            <div class="scroll_wrap">
+                <div class="scroll_on type_bottom">
+                    <div class="webpage_text_box">
+                        <div id="webpage_up_text">
+                            JEWELRY BRAND
+                        </div>
+                        <div id="webpage_title">
+                            Tiffany&Co
+                        </div>
+                        <div id="webpage_description">
+                            <br>
+                            티파니앤코의 상징색인 하늘색과 흰색을 이용하여 버튼 컬러에 하늘색 효과를 주어<br>
+                            티파니의 상징색과 깔끔한 레이아웃을 매치하여 보기 편한 사이트를 구현하고<br>
+                            고급스러운 쥬얼리 브랜드, 티파니앤코의 이미지를 웹사이트 디자인으로 표현하였습니다<br>
+                        </div>
+        
+                        <div id="go_button">
+                            <br><br><br>
+                            <a href="https://65d82629bb811f656d5e8c5e--golden-phoenix-376ddb.netlify.app/" target="_blank">
+                                <div id="webpage_go_button">
+                                    <span class="material-symbols-outlined">
+                                    arrow_forward_ios
+                                    </span>바로가기
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+        </section>
+
 
         <section id="promotion_index">
             <div class="promotion_img_box">
@@ -289,18 +598,25 @@
                         MY ART
                     </p>
                 </div>
-
-                <div class="popup_img_all">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup1" width="300px">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup2" width="300px" >
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup3"width="300px" >
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup4"width="300px">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup5" width="300px">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup5" width="300px">
-                    <img class="popup_img" src="./popupimage.JPG" alt="popup5" width="300px">
-
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./myart_1.png">
+                        <img src="./myart_2.png">
+                        <img src="./myart_3.png">
+                        <img src="./myart_4.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./myart_5.png">
+                        <img src="./myart_6.png">
+                        <img src="./myart_7.png">
+                        <img src="./myart_8.png">
+                    </div>
                 </div>
             </div>
+        </section>
+
+        
 
         <section id="footer">
             <div class="footer_all">
@@ -312,17 +628,108 @@
                     <p id="footer_description">
                        01086993290/vivi01255@naver.com
                     </p>
-                </div>
-                </div>
-
+                    <div id="top"><a href='#header' target="_blank"><span class="material-symbols-outlined" id="top_text">
+                        arrow_upward
+                        </span></a></div>
             </div>
+                </div>
+                </div>
+                <button id="copybtn1" onclick="copyToClipboard();" title="click">CLICK!</button>
+        </section>
 
 
 
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-                 
+        <script>
+            var swiper = new Swiper(".mySwiper", {  autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            });
+        </script>
 
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            });
+        </script>
 
+        <script>
+$('.post-wrapper').slick({
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  prevArrow : "none",
+      nextArrow : "none",
+});
+        </script>
+
+<script>
+    $('.post-wrapper_2').slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow : "none",
+          nextArrow : "none",
+    });
+</script>
+
+<script>
+$(document).ready(function() {
+    const $counters = $(".scroll_on");
     
+    
+    const exposurePercentage = 100; 
+    const loop = true; 
+
+
+    $(window).on('scroll', function() {
+        
+        $counters.each(function() {
+            const $el = $(this);
+    
+            
+            const rect = $el[0].getBoundingClientRect();
+            const winHeight = window.innerHeight; 
+            const contentHeight = rect.bottom - rect.top; 
+            
+
+            if (rect.top <= winHeight - (contentHeight * exposurePercentage / 100) && rect.bottom >= (contentHeight * exposurePercentage / 100)) {
+                $el.addClass('active');
+            }
+
+            if (loop && (rect.bottom <= 0 || rect.top >= window.innerHeight)) {
+                $el.removeClass('active');
+            }
+        });
+    }).scroll();
+});
+</script>
+
+<script>
+    function copyToClipboard(val) {
+    var t = document.createElement("textarea");
+    document.body.appendChild(t);
+    t.value = val;
+    t.select();
+    document.execCommand('copy');
+    document.body.removeChild(t);
+    }
+
+    $('#copybtn1').click(function() {
+      copyToClipboard('vivi01255@naver.com');
+      alert('이메일을 복사하였습니다');
+    });
+
+  </script>
+        
 </body>
+
+
 </html>
+

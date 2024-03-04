@@ -1,0 +1,5 @@
+.more_all{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}

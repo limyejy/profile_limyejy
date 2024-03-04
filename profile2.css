@@ -9,37 +9,52 @@
 
 
 .dot{
-    width:1050px;
+    width:1500px;
     margin-left: -2rem;
     
 }
 
+.skill_icon{
+    margin-left: -2rem;
+    margin-top: -0.5rem;
+}
     .profile_main_all{
         padding: 8%;
         width: 80%;
         height: 980px;
         display: flex;
         flex-flow: nowrap;
+        justify-content: center;
+        margin-left: 10rem;
 
     }
 
     .profile_title_all{
- 
         display: flex;
         flex-flow: column;
-        gap: 2rem;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+    #title_main{
+        font-size: 9rem;
+        color: var(--color-orange);
+        justify-content: center;
+        text-align: right;
     }
 
     #title{
         font-size: 9rem;
         color: var(--color-orange);
+        justify-content: center;
     }
+
 
     
     #profile_title2{
         font-size: 9rem;
         color: var(--color-orange);
-        padding-left: 13rem;
+
     }
 
     #bulb{
@@ -52,13 +67,14 @@
         font-size: 2.5rem;
         line-height: 4rem;
         color: var(--color-blue);
-        margin-left: 14rem;
+        margin-left: 8rem;
+        justify-content: center;
+        text-align: right;
     }
 
     .profile_bottom{
         display: flex;
         flex-flow: row nowrap;
-        margin-bottom: 5rem;
     }
 
         .line_profile{
@@ -83,10 +99,93 @@
             }
 
             .bling_img{
-                display: none;
+                display: block;
                 position: absolute;
-                margin-top: -15rem;
-                margin-left: 130rem;
+                float: right;
+                margin-top: -8rem;
+                margin-left: 1rem;
+            }
+
+
+            #main_text_01{
+                margin-left: 115rem;
+                position: absolute;
+                font-size: 2rem;
+                letter-spacing: 5px;
+                z-index: 999999999999999;
+                margin-top: 55rem;
+            }
+
+            #right_text{
+                margin-left: 135rem;
+                margin-top: -0.0rem;
+            }
+
+            .circle{
+                background-color: var(--color-blue);
+                border-radius: 999px;
+                width: 300px;
+                height: 300px;
+                margin-left: 20px;
+                line-height: 300px;
+                margin-top: 100px;
+
+            }
+
+            .profile_sub_all{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-around;
+                vertical-align: center;
+                background-color: var(--color-yellow);
+            }
+
+            .sec_01{
+                text-align: left;
+                width: 600px;
+                margin-left: 20px;
+                height: 600px;vertical-align: center;
+                flex-flow: column;
+            }
+
+            #text_all{
+                width: 600px;
+                height: 600px;
+            }
+
+            #title_1{
+                font-size: 3rem;
+                color: var(--color-blue);
+                width: 100%;
+                height: 100px;
+                line-height: 100px;
+            }
+
+            #title_03{
+                font-size: 3rem;
+                color: var(--color-blue);
+                width: 100%;
+                height: 100px;
+                line-height: 100px;
+            }
+
+            #title_02{
+                font-size: 3rem;
+                color: var(--color-blue);
+                width: 100%;
+                height: 100px;
+                line-height: 50px;
+            }
+
+            #description{
+                font-size: 1.4rem;
+                width: 100%;
+                height: 400px;
+                line-height: 30px;
+            }
+
+            #bulb_02{
+                font-size: 1.8rem;
             }
 
     

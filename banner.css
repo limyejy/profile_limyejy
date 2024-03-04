@@ -18,3 +18,25 @@
     height: 1080px;    
     justify-self: center;
 }
+
+.post-slider{
+  border:1px solid red;
+  overflow: hidden;
+  width:100%;
+}
+.post-slider .post-wrapper{
+  width:100%;
+  height:350px;
+  margin:0px auto;
+}
+.post-slider .post-wrapper .post{
+  width:600px;
+  height:350px;
+  display:inline-block;
+  background:gray;
+}
+
+.post-wrapper_2{
+    margin-left: -5rem;
+}
+

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gogosing{
+    width: 100%;
+    height: 1080px;
+    background-image: url(./gogosing_background.png);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.webpage_start{
+    width: 100%;
+    height: 1080px;
+    background-image: url(./gogosing_background_2.png);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    margin-top: -1rem;
+}
+
+.webpage_start_2{
+    width: 100%;
+    height: 1080px;
+    background-image: url(./kakao.png);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+}
+
+.webpage_start_3{
+    width: 100%;
+    height: 1080px;
+    background-image: url(./tiffany.png);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+}
+
+.webpage_text_box_2{
+    display: flex;
+    flex-flow: column;
+    vertical-align: center;
+    text-align: left;
+    margin-top: 10%;
+}
+
+#webpage_up_text_2{
+    font-family: 'Pretendard-Regular';
+    font-size: 8rem;
+    font-weight: 800;
+    color: black;
+    margin-left: 2rem;
+}
+
+#webpage_title_2{
+    font-family: 'Pretendard-Regular';
+    font-size: 7rem;
+    font-weight: 500;
+    color: black;
+    margin-left: 2rem;
+}
+
+#webpage_description{
+    font-family: 'Pretendard-Regular';
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+    margin-left: 2rem;
+    line-height: 50px;
+}
+
+#webpage_go_button{
+    font-family: 'Pretendard-Regular';
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+    margin-left: 2rem;
+    line-height: 50px;
+}
+
+
+.webpage_text_box{
+    display: flex;
+    flex-flow: column;
+    vertical-align: center;
+    text-align: left;
+    margin-top: 10%;
+}
+
+#webpage_up_text{
+    font-family: 'Pretendard-Regular';
+    font-size: 8rem;
+    font-weight: 800;
+    color: black;
+    margin-left: 2rem;
+}
+
+#webpage_title{
+    font-family: 'Pretendard-Regular';
+    font-size: 7rem;
+    font-weight: 500;
+    color: black;
+    margin-left: 2rem;
+}
+
+#webpage_description{
+    font-family: 'Pretendard-Regular';
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+    margin-left: 2rem;
+    line-height: 50px;
+}
+
+#webpage_go_button{
+    font-family: 'Pretendard-Regular';
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+    margin-left: 2rem;
+    line-height: 50px;
+}
+
+.scroll_wrap {overflow: hidden;}
+.scroll_on {padding:50px 0;font-size: 24px;font-weight:700;text-align: center;opacity: 0;transition: all 1s;}
+.scroll_on.active {opacity: 1 !important;transform: translate(0, 0) !important;}
+.scroll_on.type_top {transform: translate(0, -50px);}
+.scroll_on.type_bottom {transform: translate(0, 50px);}
+.scroll_on.type_left {transform: translate(-50px, 0);}
+.scroll_on.type_right {transform: translate(50px, 0);}

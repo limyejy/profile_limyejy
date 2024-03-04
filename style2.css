@@ -38,3 +38,12 @@ a {
     color: inherit;
 }
 
+.plus{
+    color: black;
+}
+
+.quickmenu ul li:last-child {border-bottom:0;}
+
+
+#m_03:hover #text{opacity: 0.5;}
+#m_03:hover #search_btn{opacity: 0.5;}
